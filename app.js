@@ -161,6 +161,7 @@ $("#spin").bind('click', function(e) {
   document.getElementById("dismiss-popup-btn").addEventListener("click",function(){
     document.getElementsByClassName("popup")[0].classList.remove("active");
     $('.popup-overlay').hide(0);
+	   $('#confetti').hide(0);
   });
 
 
